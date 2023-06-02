@@ -1,0 +1,98 @@
+*{
+    background: white;
+    font-family: 'Coustard';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.logo{
+    margin-left: 300px;
+    width: 300px;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.textarea{
+    border: none;
+    color: black;
+    margin-top: 5px;
+    text-transform: lowercase;
+}
+
+::placeholder {color: black;}
+    .textarea:focus{
+        outline: none;
+    }
+
+.mensaje{
+    background: white;
+    background-image: url(/imagenes/mensajecifrado.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    margin-left: 30px;
+    margin-top: 5px;
+    padding-left: 20px;
+/*position: fixed;
+   */ 
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+/*.info{
+
+}*/
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+
+}
+
+.btn-desencriptar{
+    background: black;
+    border: 1px solid grey;
+    border-radius: 24px;
+    color: whitesmoke;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 30px;
+    width: 220px;
+}
+
+.btn-encriptar{
+    background-color: grey;
+    border: 1px solid gray;
+    border-radius: 24px;
+    color: whitesmoke;
+    cursor: pointer;
+    height: 50px;
+    width: 220px;
+}
+
+.btn-copiar{
+    border: 1px solid black;
+    border-radius: 24px;
+    color: black;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 110px;
+    margin-top: 92px;
+    width: 200px;
+}
+
+footer{
+    color: gray;
+    font-size: 14px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
